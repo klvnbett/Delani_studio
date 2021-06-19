@@ -134,9 +134,23 @@ h1 {
     text-align: center;
     background-repeat: no-repeat;
     color: white;
-    text-align: center;
+    align-items: center;
     padding-top: 9vh;
     padding-bottom: 9vh;
     background-color: transparent;
     margin-bottom: 45px;
+}
+
+.input {
+    background: transparent;
+    color: white;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    background: transparent;
+    color: white;
+    width: 500px;
+    margin-bottom: 15px;
 }
