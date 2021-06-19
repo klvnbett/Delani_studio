@@ -62,14 +62,30 @@ h1 {
     margin: 20px;
 }
 
+.whatWeDo h3 {
+    padding-bottom: 45px;
+}
+
 .whatWeDo h4 {
     padding-bottom: 5%;
+}
+
+.dev_text,
+.product_manage,
+.text_design {
+    display: none;
 }
 
 .portfolio {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 10%;
+}
+
+.portfolio h3 {
+    text-align: center;
+    padding-top: 43px;
+    font-family: sans-serif;
 }
 
 .portf1 {
