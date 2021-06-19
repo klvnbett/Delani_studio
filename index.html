@@ -111,7 +111,20 @@
                 </div>
             </div>
         </div>
-    </div>
+
+        <div class="container contact">
+            <h4>CONTACT US</h4>
+            <form id="contact-form" method="POST" name="myForm" onsubmit="return validate()">
+                <div class="row">
+                    <input id="name-input" class="input" name="inputname" type="text" value="" size="35" placeholder="Name...">
+                    <input id="email-input" class="input" name="inputemail" type="text" value="" size="35" placeholder="Email..." autocapitalize="off">
+                </div>
+                <div class="row">
+                    <textarea name="inputmessage" id="message-input" class="inputmessage" cols="30" rows="10" placeholder="Your message here..."></textarea> <br/>
+                </div>
+                <button type="submit" class="btn btn-primary col-md-1">SUBMIT</button>
+            </form>
+        </div>
 </body>
 
 </html>
