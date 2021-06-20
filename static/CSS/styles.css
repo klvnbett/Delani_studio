@@ -135,8 +135,10 @@ h1 {
     background-repeat: no-repeat;
     color: white;
     align-items: center;
+    padding: 12vh;
+    /* padding-left: 9vh;
     padding-top: 9vh;
-    padding-bottom: 9vh;
+    padding-bottom: 9vh; */
     background-color: transparent;
     margin-bottom: 45px;
 }
@@ -144,8 +146,9 @@ h1 {
 .input {
     background: transparent;
     color: white;
-    width: 250px;
-    margin-bottom: 15px;
+    width: 450px;
+    margin: 15px;
+    border: 3px solid white;
 }
 
 textarea {
@@ -153,4 +156,11 @@ textarea {
     color: white;
     width: 500px;
     margin-bottom: 15px;
+    border: 3px solid white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: large;
 }
