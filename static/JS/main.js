@@ -13,6 +13,7 @@ function validate() {
         return false;
     } else {
         alert(name + ", Thankyou for reaching out to us. Your response is highly appreciated");
+        return true;
     }
 
 };

@@ -17,7 +17,7 @@
         <br>
         <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIROMENT</P>
         <div class="mouse-click"></div>
-        <a href="#about-us"><img src="./assets/mouse_click.png" alt="mouse_click"></a>
+        <a href="#about-us"><img src="./assets/mouse_click.png" alt="mouse_click" id="mouseclick"></a>
     </div>
     <div class="container about">
         <h2 id="about">ABOUT US</h2>
@@ -46,7 +46,7 @@
             <div class="col-md-4 development">
                 <img src="assets/services_icons/dev_icon.png" alt="development" id="development">
                 <h4>DEVELOPMENT</h4>
-                <p class="dev-text">All engineers are fluent in the latest enterprise,mobile and web development technologies</p>
+                <p class="dev_text">All engineers are fluent in the latest enterprise,mobile and web development technologies</p>
                 <p class="dev_text"> They collaborate with your team to write, and improve code on daily basis, using proven practices such as test-driven development and pair programming.</p>
             </div>
             <div class="col-md-4 product">
@@ -59,7 +59,7 @@
     </div>
     <div class="container portfolio">
         <h3>PORTFOLIO</h3>
-        <div class="row">
+        <div class="row" id="portfolio">
             <div class="col-md-3 portf1">
                 <img src="assets/portfolio/work4.jpg" alt="black studio" class="portf1">
                 <div class="port">
@@ -84,7 +84,7 @@
                     <div class="text">JIM carrey</div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="portfolio">
                 <div class="col-md-3 portf1">
                     <img src="./assets/portfolio/work5.jpg" alt="Goodday" class="portf1">
                     <div class="port">
@@ -116,11 +116,11 @@
             <h4>CONTACT US</h4>
             <form id="contact-form" method="POST" name="myForm" onsubmit="return validate()">
                 <div class="row">
-                    <input id="name-input" class="input" name="inputname" type="text" value="" size="35" placeholder="Name...">
-                    <input id="email-input" class="input" name="inputemail" type="text" value="" size="35" placeholder="Email..." autocapitalize="off">
+                    <input id="name-input" class="input" name="inputName" type="text" value="" size="35" placeholder="Name...">
+                    <input id="email-input" class="input" name="inputEmail" type="text" value="" size="35" placeholder="Email..." autocapitalize="off">
                 </div>
                 <div class="row">
-                    <textarea name="inputmessage" id="message-input" class="inputmessage" cols="30" rows="10" placeholder="Your message here..."></textarea> <br/>
+                    <textarea name="inputMessage" id="message-input" class="inputmessage" cols="30" rows="10" placeholder="Your message here..."></textarea> <br/>
                 </div>
                 <button type="submit" class="btn btn-primary col-md-1">SUBMIT</button>
             </form>
@@ -137,6 +137,8 @@
             <img src="assets/social_icons/flickr.png" alt="flicker">
             <p>DELANI STUDIO <br>2019</p>
         </footer>
+        <script src="static/JS/jquery-3.6.0.js"></script>
+        <script src="static/JS/main.js"></script>
 </body>
 
 </html>
