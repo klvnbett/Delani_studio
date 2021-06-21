@@ -18,6 +18,7 @@ function validate() {
 
 };
 $(document).ready(function() {
+    // this will toggle between the description of the offers
     $("div.design").click(function() {
         $("img#design").toggle();
         $("p.text_design").toggle();
@@ -30,6 +31,13 @@ $(document).ready(function() {
         $("img#product").toggle();
         $("p.product_manage").toggle();
     });
+    //the section that when hover it changes and shows some text
+    // $(".port").mouseover(function() {
+    //     $(".text").show();
+    // });
 
+    // $(".port").mouseout(function() {
+    //     $(".text").hide();
+    // });
 
-})
+});
