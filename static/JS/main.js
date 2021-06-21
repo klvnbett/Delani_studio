@@ -32,12 +32,58 @@ $(document).ready(function() {
         $("p.product_manage").toggle();
     });
     //the section that when hover it changes and shows some text
-    // $(".port").mouseover(function() {
-    //     $(".text").show();
-    // });
-
-    // $(".port").mouseout(function() {
-    //     $(".text").hide();
-    // });
-
+    $('.portf1').mouseover(function() {
+        $('.port1').show();
+    }).mouseout(function() {
+        $('.port1').hide();
+    });
+    $('.portf2').mouseover(function() {
+        $('.port2').show();
+    }).mouseout(function() {
+        $('.port2').hide();
+    });
+    $('.portf3').mouseover(function() {
+        $('.port3').show();
+    }).mouseout(function() {
+        $('.port3').hide();
+    });
+    $('.portf4').mouseover(function() {
+        $('.port4').show();
+    }).mouseout(function() {
+        $('.port4').hide();
+    });
+    $('.portf5').mouseover(function() {
+        $('.port5').show();
+    }).mouseout(function() {
+        $('.port5').hide();
+    });
+    $('.portf6').mouseover(function() {
+        $('.port6').show();
+    }).mouseout(function() {
+        $('.port6').hide();
+    });
+    $('.portf7').mouseover(function() {
+        $('.port7').show();
+    }).mouseout(function() {
+        $('.port7').hide();
+    });
+    $('.portf8').mouseover(function() {
+        $('.port8').show();
+    }).mouseout(function() {
+        $('.port8').hide();
+    });
 });
+// $(document).ready(function() {
+//     $(".port").mouseover(function() {
+//         $("#work1").show();
+
+//     }).mouseout(function() {
+//         $("#work1").hide();
+//     });
+// });
+
+// $("portf1").hover(function() {
+//     $("text", this).slideToggle('slow');
+// }, function() {
+//     $("text", this).slideToggle('slow');
+// });

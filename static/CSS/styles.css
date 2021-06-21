@@ -117,14 +117,31 @@ h1 {
     margin: 22px;
 }
 
-.port {
-    opacity: 0;
+.port1,
+.port2,
+.port3,
+.port4,
+.port5,
+.port6,
+.port7,
+.port8 {
+    display: none;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    align-items: center;
     position: absolute;
-    top: 25%;
-    bottom: 25%;
-    left: 25%;
-    right: 25%;
-    background-color: teal;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.text {
+    width: 82%;
+    height: 82%;
+    border: 3px solid #fff;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 .contact {
@@ -158,6 +175,31 @@ textarea {
     margin-bottom: 15px;
     border: 3px solid white;
 }
+
+
+/* #work1,
+#work2,
+#work3,
+#work4,
+#work5,
+#work6,
+#work7,
+#work8 {
+    display: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 23px;
+    left: 5px;
+    font-weight: bold;
+    font-size: 45;
+    text-align: center;
+    padding-top: 50%; */
+
+
+/* } */
 
 ::placeholder {
     color: white;
