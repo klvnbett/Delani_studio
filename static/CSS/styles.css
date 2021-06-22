@@ -52,11 +52,12 @@ h1 {
 
 .services {
     background-image: url(../assets/backgrounds/s_image.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    background-position: center;
+    /* background-color: black; */
+    /* background-position: center; */
     padding: 6%;
 }
 
@@ -66,7 +67,7 @@ h1 {
 
 .services>p {
     padding: 5px 0;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .whatWeDo {
@@ -144,7 +145,7 @@ h1 {
     margin-top: 10%;
 }
 
-.contact {
+#contact {
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-position: center;
     background-size: cover;
